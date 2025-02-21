@@ -127,7 +127,7 @@ video {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  max-width: 196px;
+  max-width: 195px;
   line-height: 180%; /*для расположения названия городов в списке*/
 }
 
