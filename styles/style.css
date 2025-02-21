@@ -239,7 +239,6 @@ fieldset {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,7 +249,7 @@ fieldset {
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
+  display: inline-block;
   width: 15px;
   height: 15px;
   outline: none;
