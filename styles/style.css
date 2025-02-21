@@ -212,7 +212,7 @@ fieldset {
 
 .search-form__textfield::placeholder {
   color: rgb(255,255,255,0.7);
-  letter-spacing: -0.3px; /*для вида подписи  как в макете*/
+  /*letter-spacing: -0.3px; для вида подписи  как в макете*/
 }
 
 .search-form__textfield:focus {
